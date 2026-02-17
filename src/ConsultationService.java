@@ -2,6 +2,9 @@ public class ConsultationService extends Service
         implements Billable {
 
     // TODO: constructor
+    public ConsultationService(String serviceName, int serviceId) {
+        super(serviceName, serviceId);
+    }
 
 
     @Override
@@ -10,7 +13,12 @@ public class ConsultationService extends Service
         // TODO:
         // check active
         // print consultation message
-
+        if(getIsActive()) {
+            System.out.println("Consultation...");
+        }
+        else {
+            System.out.println("Not Active...");
+        }
     }
 
     @Override
@@ -18,6 +26,7 @@ public class ConsultationService extends Service
 
         // TODO:
         // print billing message
+        System.out.println("Here is your billing...");
 
     }
 }
