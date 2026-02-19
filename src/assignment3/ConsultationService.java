@@ -1,3 +1,5 @@
+package assignment3;
+
 public class ConsultationService extends Service
         implements Billable {
 

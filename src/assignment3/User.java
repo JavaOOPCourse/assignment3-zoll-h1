@@ -1,3 +1,5 @@
+package assignment3;
+
 public abstract class User {
 
     // TODO: declare fields

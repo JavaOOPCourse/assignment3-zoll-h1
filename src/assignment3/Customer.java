@@ -1,3 +1,5 @@
+package assignment3;
+
 public class Customer extends User {
 
     // TODO: constructor

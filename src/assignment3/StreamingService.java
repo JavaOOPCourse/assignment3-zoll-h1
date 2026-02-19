@@ -1,3 +1,5 @@
+package assignment3;
+
 public class StreamingService extends Service
         implements PremiumFeature {
 

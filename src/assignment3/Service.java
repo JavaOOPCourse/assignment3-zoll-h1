@@ -1,3 +1,5 @@
+package assignment3;
+
 public abstract class Service {
 
     // TODO: declare private fields

@@ -1,3 +1,5 @@
+package assignment3;
+
 public class Admin extends User {
 
     // TODO: constructor
